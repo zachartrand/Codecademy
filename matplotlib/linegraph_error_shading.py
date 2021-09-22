@@ -1,8 +1,11 @@
 from matplotlib import pyplot as plt
 
 months = range(12)
-month_names = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
-revenue = [16000, 14000, 17500, 19500, 21500, 21500, 22000, 23000, 20000, 19500, 18000, 16500]
+month_names = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
+               "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+revenue = [16000, 14000, 17500, 19500, 21500, 21500,
+           22000, 23000, 20000, 19500, 18000, 16500]
 
 #your work here
 ax = plt.subplot()
